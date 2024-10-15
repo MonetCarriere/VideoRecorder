@@ -1,0 +1,56 @@
+*{
+    background-color: #f6f6f6;
+}
+
+.container{
+    text-align: center;
+    margin: 50px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #0d9276;
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2a2a2a;
+}
+
+.box{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+video{
+    width: 100%;
+    margin-top: 20px;
+    margin: 50px auto;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

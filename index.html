@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Screen Recorder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Screen Recorder</h1>
+        <button id="startRecording">Start Recording</button>
+        <button id="stopRecording" disabled>Stop Recording</button>
+        <button id="downloadRecording" disabled>Download Recording</button>
+    </div>
+    <div class="box">
+        <video id="recordVideo" controls></video>
+    </div>
+    <!--jQuery Library-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <!--RecordRTC JS Library-->
+    <script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
